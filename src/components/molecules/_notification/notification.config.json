@@ -1,0 +1,26 @@
+{
+    "title": "Notification Banner",
+    "status": "ready",
+    "context": {
+        "modifier": "default",
+        "closeButtonText": "close",
+        "text": "This is the default banner"
+    },
+    "variants": [
+        {
+            "name": "warning",
+            "context": {
+                "modifier": "alert",
+                "text": "This is a warning banner"
+            }
+        },
+        {
+            "name": "success",
+            "status": "prototype",
+            "context": {
+                "modifier": "success",
+                "text": "This is a success banner"
+            }
+        }
+    ]
+}

@@ -1,0 +1,28 @@
+{
+    "title": "Button",
+    "status": "ready",
+    "context": {
+        "name": "Default",
+        "modifier": "default",
+        "text": "default"
+    },
+    "variants": [
+        {
+            "name": "primary",
+            "context": {
+                "name": "Primary",
+                "modifier": "primary",
+                "text": "primary"
+            }
+        },
+        {
+            "name": "secondary",
+            "status": "prototype",
+            "context": {
+                "name": "Secondary",
+                "modifier": "secondary",
+                "text": "secondary"
+            }
+        }
+    ]
+}
